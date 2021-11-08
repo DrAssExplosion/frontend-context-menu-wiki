@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Context menu wiki",
+    "short_name": "CMW",
+    "version": "0.1",
+    "author": "MMP",
+    "description": "Context menu wiki",
+    "icons": {
+        "48": "icon.png"
+    },
+    "background": {
+        "service_worker": "main.js"
+    },
+    "permissions": [
+        "contextMenus"
+    ]
+}
